@@ -4,6 +4,9 @@
 
 1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```.
 2. [x] Create your account file with username and password variables.
+3. [x] Move the chromedriver by the command  ```sudo mv chromedriver /usr/local/bin/chromedriver```
+
+Well Done!
 
 # Usage
 
