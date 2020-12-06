@@ -28,7 +28,7 @@ class NeoBot():
         passc.send_keys(password)
         html = self.driver.page_source
         if "Código de Verificação" in html or "Verification Code" in html:  
-          print("Waiting for human captcha to be solved... type the captcha then press enviar/send/login to login to proceed to automatic process")
+          print("Waiting for human captcha to be solved... type the captcha then press enviar or send to login to proceed to automatic process!")
         else:
           print("There's no captcha! proceding to automatically view the ads!")
           send_btn = self.driver.find_element_by_xpath(lsend_xpath)
