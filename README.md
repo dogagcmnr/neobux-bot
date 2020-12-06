@@ -1,7 +1,9 @@
 # neobux-bot
 
 To support newer version of chrome, it will require windows 7/8/10 to be installed and running on your computer, linux and macos gets an error.
+
 With neobux-bot, you just type an captcha to login if it's required and, you can now finally have a relaxed vacation while neobux-bot clicks the ads for you!
+
 Since there's no Public API for neobux, you need to keep chrome opened until neobux-bot finishes to click all ads and closes the browser.
 
 # Installation
