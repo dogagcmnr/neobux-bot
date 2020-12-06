@@ -8,6 +8,8 @@ Since there's no Public API for neobux, you need to keep chrome opened until neo
 
 1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```. (It automatically installs selenium if it's not installed)
 2. [x] Create your account file with username and password variables.
+If you're on windows 7/8/10, remove chromedriver without exe
+If you're on linux or macos, remove chromedriver.exe
 
 Well Done!
 
