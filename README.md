@@ -6,7 +6,7 @@ Since there's no Public API for neobux, you need to keep chrome opened until neo
 
 # Installation
 
-1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```. (If first run automatically installs selenium if it's not installed then it will skip 1.)
+1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```. (It automatically installs selenium if it's not installed)
 2. [x] Create your account file with username and password variables.
 
 Well Done!
