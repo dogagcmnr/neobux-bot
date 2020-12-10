@@ -1,10 +1,19 @@
 # neobux-bot
 
+To support newer version of chrome, it will require windows 7/8/10 to be installed and running on your computer, linux and macos gets an error.
+
+With neobux-bot, you just type an captcha to login if it's required and, you can now finally have a relaxed vacation while neobux-bot clicks the ads for you!
+
+Since there's no Public API for neobux, you need to keep chrome opened until neobux-bot finishes to click all ads and closes the browser.
+
 # Installation
 
-1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```.
+1. [x] Install Selenium package by ```pip install selenium``` or ```pip3 install selenium```. (It automatically installs selenium if it's not installed)
 2. [x] Create your account file with username and password variables.
-3. [x] Move the chromedriver by the command  ```sudo mv chromedriver /usr/local/bin/chromedriver```
+
+If you're on windows 7/8/10, remove chromedriver without exe (Chrome 87 only)
+
+If you're on linux or Mac OS X, remove chromedriver.exe (Chrome 70 to 73 only)
 
 Well Done!
 
@@ -12,9 +21,10 @@ Well Done!
 
 1. Start the program with ```python neobot.py``` or ```python3 neobot.py```.
 2. After you start the neobot.py, you need to enter CAPTCHA manually and PRESS SEND button.
-3. Enter the command ```bot.adclick()``` for navigating to Advertisement page and clicking all pink ads.
-   - This command still doesn't clicks orange ads if its' first time (needs improvement lines between 38-48)
-4. Enter the command ```bot.adprize()``` for clicking all adprizes.
+
+# Screenshot in action
+
+![Screenshot in action](https://cdn.discordapp.com/attachments/352944118864805889/785092880472735754/403.PNG)
 
 You got it.
 

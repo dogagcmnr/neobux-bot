@@ -10,8 +10,5 @@ passw_xpath = '//*[@id="Kf2"]'
 lsend_xpath = '//*[@id="botao_login"]'
 adprize_xpath = '//*[@id="ap_h"]'
 
-# Counters
-total_xpath = '//*[@id="navAds"]/div[1]/a/span'
-
 # Mini Counters
 orange_mini_xpath = '//*[@id="navAds"]/div[2]/a[1]'
